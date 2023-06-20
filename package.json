@@ -1,0 +1,29 @@
+{
+  "name": "education_web",
+  "version": "1.0.0",
+  "description": "1232123",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "start": "npm run clean && parcel ./src/index.html -p 3001 --open",
+    "build": "npm run clean && parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungnt1203/education_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungnt1203/education_web/issues"
+  },
+  "homepage": "https://github.com/tungnt1203/education_web#readme",
+  "dependencies": {
+    "parcel": "^2.9.2",
+    "posthtml-include": "^1.7.4",
+    "rimraf": "^5.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.2"
+  }
+}
