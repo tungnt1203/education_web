@@ -31,8 +31,6 @@
     animation: typing 1s steps(22) forwards, caret 1s infinite;
   }
   .typing-last{
-    animation-delay: 4s;
-    transition-delay: 4s;
     &::after{
       content: "|";
       position: absolute;
@@ -40,6 +38,8 @@
       right: 0;
       width: 100%;
       background:  white;
+      animation-delay: 4s;
+      transition-delay: 4s;
       animation: typing 1s steps(15) forwards, caret 1s infinite;
     }
   }

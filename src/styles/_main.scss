@@ -3,6 +3,9 @@
 @import "./header.scss";
 @import "./footer.scss";
 @import "./home.scss";
+@import "./course.scss";
+@import "./teacher.scss";
+@import "./price.scss";
 
 :root {
   --violet: #6c5ce7;
@@ -19,7 +22,6 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all 1s ease-out;
 }
 
 html {
