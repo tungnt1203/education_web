@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 7%;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  .logo {
+    font-size: 2.5rem;
+    color: var(--violet);
+    font-size: bold;
+  }
+  span {
+    color: var(--pink);
+  }
+  .navbar {
+    a {
+      margin-left: 2rem;
+      font-size: 2rem;
+      color: #333;
+    }
+    a:hover {
+      color: var(--pink);
+    }
+  }
+  .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+#menu {
+  font-size: 2.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: none;
+}

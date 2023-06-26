@@ -1,0 +1,46 @@
+
+.footer {
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    .box{
+      flex: 1 1 20rem;
+    }
+    h3{
+      font-size: 2.5rem;
+      color: #666;
+      padding: 0.7rem 0;
+    }
+    p{
+      font-size: 1.5rem;
+      color: #666;
+      padding: 0.7rem 0;
+    }
+    a{
+      display: block;
+      font-size: 1.5rem;
+      color: #666;
+      padding: 0.7rem 0;
+    }
+    a:hover{
+      color: var(--pink);
+    }
+    i{
+      padding-right: .5rem;
+      color: var(--pink);
+    }
+  }
+  .credit{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,0.1);
+    color: #666;
+    span {
+      color: var(--pink);
+    }
+  }
+} 
